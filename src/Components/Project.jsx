@@ -1,4 +1,4 @@
-import styles from "../styles/project.css";
+import styles from "../styles/home.css";
 let projectName = "Old Faithful Fountains";
 const projectUrl = "https://github.com/jonasnunn/old_faithful";
 const projectDescription =
