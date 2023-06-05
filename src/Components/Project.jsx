@@ -1,8 +1,5 @@
 import styles from "../styles/home.css";
 import PropTypes from 'prop-types';
-// let projectName = "Old Faithful Fountains";
-// const projectUrl = "https://github.com/jonasnunn/old_faithful";
-// const projectDescription = "I built this website for a small company to improve their online presence, and give consumers knowledge of the company.";
 
 const Project = (props) => {
   const { name, url, description} = props;

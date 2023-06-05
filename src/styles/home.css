@@ -27,6 +27,10 @@ div{
     max-width: 500px;
 }
 
+a{
+    text-decoration: none;
+    color: blue;
+}
 
 /*
 colors
@@ -35,4 +39,6 @@ GREENISH : C0E0DE
 DARK GREE : 162521
 GREY: 3C474B
 WHITE: FFFFFF
+portfolio website by Kawalan Icon from <a href="https://thenounproject.com/browse/icons/term/portfolio-website/" target="_blank" title="portfolio website Icons">Noun Project</a>
 */
+
