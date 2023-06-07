@@ -3,17 +3,14 @@ body{
     background-color: #C0E0DE;
     color: #162521;
 }
-
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 h1, h2{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-
 main h2{
    margin-top: 80px; 
 }
@@ -21,15 +18,28 @@ img {
     grid-column: 2/-1;
     width: 100%;
 }
-
 div{
     margin: 0 auto;
     max-width: 500px;
+    margin-bottom: 20px;
 }
-
+div h4{
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+div h2{
+    margin-bottom: -20px;
+}
 a{
     text-decoration: none;
     color: blue;
+}
+P{
+    margin: 10px 0px;
+    margin-left: 10px;
 }
 
 /*
@@ -41,4 +51,3 @@ GREY: 3C474B
 WHITE: FFFFFF
 portfolio website by Kawalan Icon from <a href="https://thenounproject.com/browse/icons/term/portfolio-website/" target="_blank" title="portfolio website Icons">Noun Project</a>
 */
-
