@@ -6,28 +6,31 @@ function App() {
     "Old Faithful Fountains",
     "Bountiful Foods",
     "Chamber of Commerce",
-    "Task Manager",
     "Meal Planner",
+    "Memorization Helper",
     "Gauntlet Game",
-    "Moon Lander",
+    "Youtube Downloader",
+    "Wordle Game",
   ];
   let urls = [
     "https://github.com/jonasnunn/old_faithful",
     "https://github.com/jonasnunn/wdd230/tree/main/bountiful",
     "https://github.com/jonasnunn/wdd230/tree/main/chamber",
-    "N/A",
-    "N/A",
-    "N/A",
-    "N/A",
+    "https://github.com/jonasnunn/recipe-manager",
+    "https://github.com/jonasnunn/memorizer",
+    "https://github.com/jonasnunn/TheGauntlet",
+    "https://github.com/jonasnunn/youtube_downloader",
+    "https://github.com/jonasnunn/wordle",
   ];
   let descriptions = [
     "I built this website for a small company to improve their online presence, and give consumers knowledge of the company.",
     "I created this to demonstrate mt skill with HTML, CSS, and JavaScript.",
     "This is a mock chamber of commerce site that I created to build my web development skills.",
-    "This project keeps track of different tasks and helps organize them.",
     "This application can be used to plan out a weeks worth of meals. It can save recipes and then place them into a calender.",
+    "This project help you memorize a body of text by breaking it down into words and then hiding them a couple at a time.",
     "This is a game where you have to stay alive in the gauntlet for as long as possible.",
-    "The simulator recreates the Apollo 11 moon landing.",
+    "Allows you to download youtube videos to your device in a variety of formats using the pyTube library and tkinter.",
+    "A guess the word game, based off of the popular wordle game."
   ];
   let projects = [names, urls, descriptions];
 
@@ -67,10 +70,16 @@ function App() {
         url={projects[1][5]}
         description={projects[2][5]}
       />
+      <h2>Python</h2>
       <Project
         name={projects[0][6]}
         url={projects[1][6]}
         description={projects[2][6]}
+      />
+      <Project
+        name={projects[0][7]}
+        url={projects[1][7]}
+        description={projects[2][7]}
       />
     </>
   );
