@@ -7,6 +7,7 @@ function About() {
     <>
         <div>
             <h2>I grew up in Dallas Texas</h2>
+            <p>I got married 2 years ago. </p>
         </div>
     </>
     )

@@ -1,18 +1,23 @@
 body{
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    background-color: #C0E0DE;
     color: #162521;
+    max-width: 1600px;
+    background-color: #C0E0DE;
 }
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 30%;
 }
 h1, h2{
     grid-column: 1/2;
     grid-row: 1/2;
 }
+main h1{
+    margin-top: 80px;
+}
 main h2{
-   margin-top: 80px; 
+   margin-top: 130px;
 }
 img {
     grid-column: 2/-1;
@@ -20,7 +25,7 @@ img {
 }
 div{
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 600px;
     margin-bottom: 20px;
 }
 div h4{
