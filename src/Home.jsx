@@ -2,16 +2,17 @@
 
 import styles from "./styles/home.css";
 import headshot from "./images/JonasNunn_optimized.jpg";
+import bubbleChart from "./images/bubble_chart.png";
 
 function HomePage() {
   return (
     <>
       <main className={styles.main}>
-        <h1>Jonas Nunn</h1>
-        <h2>I am a developer</h2>
-        <img src={headshot} alt="Headshot" />
+        <img src={headshot} alt="Headshot" id="headshot"/>
+        <img src={bubbleChart} id="bubbleChart" />
+        <a href="projects.html"><button id="projectButton">Projects</button></a>
+        <a href=""><button id="aboutButton">About Me</button></a>
       </main>
-      <h1>Projects: </h1>
     </>
   );
 }
