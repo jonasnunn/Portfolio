@@ -4,21 +4,23 @@ This web app is a personal portfolio to present my project in an interesting and
 
 My purpose in writing this application was twofold. First was to present my work to others in a user friendly way. Second was to familiarize myself with react and practice good practices in it. 
 
-[Software Demo Video](https://youtu.be/PMNmh9i2Fiw)
+[Software Demo Video](https://youtu.be/e3WiIQlCmMw)
 
 # Development Environment
 
-I build this project using VScode, vite and npm. It utilizes reactNative and all associated web langues (HTML5, CSS3, Javascript)
+I build this project using VScode, vite and npm. It utilizes reactNative and all associated web langues (HTML5, CSS3, Javascript). 
+For the backed it uses express and Mongodb. 
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](https://www.youtube.com/watch?v=SqcY0GlETPk&t=877s)
-* [Web Site Name](https://www.w3schools.com/)
+* [React Tutorial](https://www.youtube.com/watch?v=SqcY0GlETPk&t=877s)
+* [W3 schools](https://www.w3schools.com/)
+* [Mongodb Docs](https://www.mongodb.com/docs/atlas/)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Add more projects
-* Add more pages
-* Make it look nicer
+* Get the projects data to populate from the backend
+* Get navigation between pages to work more pages
+* UI improvements

@@ -4,8 +4,6 @@ body{
     max-width: 1600px;
     background-color: #43344F;
 }
-main {
-}
 img {
     grid-column: 2/-1;
     width: 100%;
