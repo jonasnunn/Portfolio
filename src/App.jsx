@@ -1,26 +1,20 @@
+import Project from "./Components/Project.jsx";
 import Home from "./Home.jsx";
 import Projects from "./Projects.jsx";
-import { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const [currentPage] = useState('projects');
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'home':
-        return <Home />;
-      case 'projects':
-        return <Projects />;
-      // Add cases for other pages
-      default:
-        return null;
-    }
-  };
-
   return (
-    <>
-      {renderPage()}
-    </>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
